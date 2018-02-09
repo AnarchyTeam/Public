@@ -18,56 +18,50 @@ cl.loginResult()
 
 cl
 
-print " ̵̧̧̢̠̗̱̗̲̝̪͇͇̐̓̓̀̀͢͞͞ͅͅǍ̜̖̼̤͔̤̝̲̗̣͍̮̽͝҉̡̡̨̧̕͢͜͠͡͡҉͞ḁ̴̸̴̡̧̢̧̜̟̥̣̩͎̼̟ͦ͗̾̿̇ͨ̍̎̉̉ͥ̋́̀͞͞͡͠͏̸̛͞͝n̦̞̭̘̯̺̗͔̲͓̖̭̤̱̖̦̑͘҉҉̛͏̡̨̛͡҉̡̡͘ ̷̗͙̫̠̹̹̙̳͚͉̦͈͖̺̤̆͑ͯ̈́͝J̞̟̫̮̜̬̘̫̗͈͚̗͔͕̻̝ͩ̋ͤͩͣ̋ͣ̐ͯ͗̈́̿̊̓͐̾͌͛ữ̴̴̸̢͈͕̙̮̭͍͔͖̪̣̘͙̬̺͐̾͒̃̀͆͐͆̀̇̕̕͘͜҉̷̴̴̛͡t̸̴̨̧̧̨̡͙͔̬̭̱̪̪͈͎̺̣̰̱̥͖̘͈̰̻̹ͦͯ̋̏͊̇̇ͩ̈́̆͊̌͋̿͟͜͟͟͜͡͡͝ȁ̷̺̭͎̙̩̝̝̻͖̮̼͍͈͈͓̻͕̻͇͍̉͒ͫͦ̃ͯ̎̃̿ͧ̈̾̊̏̄̄̍͟҉w̠̘͍̘̱͙̺͙̮̟͖̻̙̹͍̻̑̏͛̋͐̔ͥ̆ͧ̎ͪͫͨͣ͋ͦ̍̎̀ͅͅͅ͏̶̕͘͢͜҉̵̢͘҉̸͘̕͝ḁ̵̶̡̛͎͔̺̘͍ͫ̉̅̈́͑ͦ̊̚̕͏҉͢n̥̯̫̘͋̂̀́́͘҉̵̧̢͘͢͟͝͡͞"
+print "LOGIN SUKSES"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""_________________________________
+helpMessage ="""
+   「List Key」
 
-Bot Publik   ̵̧̧̢̠̗̱̗̲̝̪͇͇̐̓̓̀̀͢͞͞ͅͅǍ̜̖̼̤͔̤̝̲̗̣͍̮̽͝҉̡̡̨̧̕͢͜͠͡͡҉͞ḁ̴̸̴̡̧̢̧̜̟̥̣̩͎̼̟ͦ͗̾̿̇ͨ̍̎̉̉ͥ̋́̀͞͞͡͠͏̸̛͞͝n̦̞̭̘̯̺̗͔̲͓̖̭̤̱̖̦̑͘҉҉̛͏̡̨̛͡҉̡̡͘ ̷̗͙̫̠̹̹̙̳͚͉̦͈͖̺̤̆͑ͯ̈́͝J̞̟̫̮̜̬̘̫̗͈͚̗͔͕̻̝ͩ̋ͤͩͣ̋ͣ̐ͯ͗̈́̿̊̓͐̾͌͛ữ̴̴̸̢͈͕̙̮̭͍͔͖̪̣̘͙̬̺͐̾͒̃̀͆͐͆̀̇̕̕͘͜҉̷̴̴̛͡t̸̴̨̧̧̨̡͙͔̬̭̱̪̪͈͎̺̣̰̱̥͖̘͈̰̻̹ͦͯ̋̏͊̇̇ͩ̈́̆͊̌͋̿͟͜͟͟͜͡͡͝ȁ̷̺̭͎̙̩̝̝̻͖̮̼͍͈͈͓̻͕̻͇͍̉͒ͫͦ̃ͯ̎̃̿ͧ̈̾̊̏̄̄̍͟҉w̠̘͍̘̱͙̺͙̮̟͖̻̙̹͍̻̑̏͛̋͐̔ͥ̆ͧ̎ͪͫͨͣ͋ͦ̍̎̀ͅͅͅ͏̶̕͘͢͜҉̵̢͘҉̸͘̕͝ḁ̵̶̡̛͎͔̺̘͍ͫ̉̅̈́͑ͦ̊̚̕͏҉͢n̥̯̫̘͋̂̀́́͘҉̵̧̢͘͢͟͝͡͞
-========Menu Bot=========
-
-☞ Apakah (seperti kerang ajaib)
-☞ kedapkedip = coba aja
-☞ Dosa @(by tag) = Buat lucu2an
-☞ Pahala @(by tag) = Buat lucu2an
-☞ Steal dp @(by tag) = meliahat dp
-☞ Steal home @(by tag) = melihat home
-☞ Steal mid @
-☞ Steal contact @
-☞ /say = teks ke suara
-☞ /set > /tes Untuk Cek Sider
-☞ /tagall = Tag semua member
-☞ /tid = translate ing > ind
-☞ /ten = translate ind > ing
-☞ /gcreator = Menunjukkan pembuat grup
-☞ /ginfo = Info grup
-☞ /cancel = Membatalkan semua undanganan
-☞ /ourl = Invite by link on
-☞ /curl = Invite by link off
-☞ /help = Menampilkan keyword
-☞ /keluar = Bot meninggalkan grup
-☞ /musik <penyanyi> <judul>
-☞ Instagram contoh Instagram sesadas.class
-☞ youtube [name vidio]
-☞ /image contoh /image kucing
-☞ Crash
-☞ Wiki contoh Wiki kucing
-☞ Creator
-
-==========BotCreator==========
-
-A̩̥͎̫ͪ̕͜ͅa̟̙̦̘̺̍ͤͦ͌̅ͮn̻͕̳͎̾͋̄ͥ̊̾ͭ̓̓҉̶́͜͜ ̴̸͈̫̯̲̹̤̾̐ͨͦͤͦͅ͏j̷̶̢̱̱̱̪̬̱̊ͧ̎̆̈́͘͝u̟̬͈̪͈͖̘͓̿ͬͪ̂́̕͜͡͠ͅt̴̴̛̤ͧͩͮ̄͒̔̑̀͟͏̶ȧ̴̴̢̨̳̼̬̯̼̘͖̒ͧ̓̄͗͊́͝w̸̢̦̹̺͈̾͆ͣ́̔́̚͢͠ą̵̴̸̻͙ͯ̎͊̒̅̓͜n̸͍͇̙͔̼̗͑̎͊ͣ̅̅͆̑̕͢
-==>Aan jutawan: https://line.me/R/ti/p/%40iyv1920f<==
-_________________________________
+ Apakah [ Text]
+ kedapkedip [Text]
+ Dosa @[Tag Name]
+ Pahala @[Tag Name]
+ Steal dp @[Tag Name]
+ Steal home @[Tag Name]
+ Steal mid @[Tag Name]
+ Steal contact @[Tag Name]
+ /say [Text]
+ /set > /tes [List sider]
+ /tagall [Tagall Member]
+ /tid = translate ing > ind
+ /ten = translate ind > ing
+ /gcreator = Menunjukkan pembuat grup
+ /ginfo = Info grup
+ /cancel = Membatalkan semua undanganan
+ /ourl = Invite by link on
+ /curl = Invite by link off
+ /help = Menampilkan keyword
+ /keluar = Bot meninggalkan grup
+ /musik <penyanyi> <judul>
+ Instagram contoh Instagram sesadas.class
+ youtube [name vidio]
+ /image contoh /image kucing
+ Crash
+ Wiki contoh Wiki kucing
+ Creator
+ /cuaca
+ info saya
 """
 
 
 KAC=[cl]
 mid = cl.getProfile().mid
 
-Bots=[mid,"ub76a0153a283da9a1443dfb043181335"]
-admin=["ub76a0153a283da9a1443dfb043181335"]
+Bots=[mid,"u0e6f484b1969f3ef5940b055bdc4d798"]
+admin=["u0e6f484b1969f3ef5940b055bdc4d798"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -75,9 +69,9 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':"Support Bot Aan jutawan https://line.me/R/ti/p/%40iyv1920f",
+    'message':"Thanks For add me",
     "lang":"JP",
-    "comment":"Thanks for add Open selfbot,Sewa Bot Protect,Jual Script Bot Minat pc https:/line.me/R/ti/p/%40iyv1920f",
+    "comment":"Autolike By Hanabi",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -2042,7 +2036,7 @@ def bot(op):
             elif msg.text in ["Creator"]:
               if msg.toType == 2:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'u84e571575c1f7fe8bda071470a4511a0'}
+                msg.contentMetadata = {'mid': 'u0e6f484b1969f3ef5940b055bdc4d798'}
                 cl.sendMessage(msg)
                 cl.sendText(msg.to,"Itu Creator Saya ")
 	    elif msg.text in ["/gcreator"]:
@@ -2378,6 +2372,39 @@ def bot(op):
 		    except:
 			pass
     #-------------Fungsi Leave Group Finish---------------#
+#------------------------------------------------------------
+#------------------------------------------------------------
+           elif "info saya" in msg.text:
+              kelamin = ("Waria","Laki-laki","Perempuan","Tidak Diketahui","Bencong")
+              wajah = ("Standar","Ganteng","Cantik","Beruk","Hancur")
+              status = ("Menikah","Pacaran","Jones")
+              k = random.choice(kelamin)
+              w = random.choice(wajah)
+              s = random.choice(status)
+              cl.sendText(msg.to,"Ã¢â‚¬Â¢ Nama : "+cl.getContact(msg.from_).displayName+"\nÃ¢â‚¬Â¢ Kelamin : "+k+"\nÃ¢â‚¬Â¢ Wajah : "+w+"\nÃ¢â‚¬Â¢ Status Kehidupan : "+s)
+
+            elif "/cuaca " in msg.text:
+                            separate = msg.text.split(" ")
+                            location = msg.text.replace(separate[0] + " ","")
+                            with requests.session() as web:
+                                web.headers["user-agent"] = random.choice(user_agent)
+                                r = web.get("http://api.corrykalam.net/apicuaca.php?kota={}".format(urllib2.quote(location)))
+                                data = r.text
+                                data = json.loads(data)
+                                if "result" not in data:
+                                    ret_ = "Location : " + data[0].replace("Temperatur di kota ","")
+                                    ret_ += "\nSuhu : " + data[1].replace("Suhu : ","") + " C"
+                                    ret_ += "\nKelembaban : " + data[2].replace("Kelembaban : ","") + " %"
+                                    ret_ += "\nTekanan udara : " + data[3].replace("Tekanan udara : ","") + " HPa"
+                                    ret_ += "\nKecepatan angin : " + data[4].replace("Kecepatan angin : ","") + " m/s"
+                                    ret_ += "\n\nTanggal : " + datetime.now().strftime('%Y-%m-%d')
+                                    ret_ += "\nJam : " + datetime.now().strftime('%H:%M:%S')
+                                else:
+                                    ret_ = "[Weather Status] Error : Location not found"
+                                cl.sendText(msg.to, str(ret_))
+
+#-------------------------------------------------------------
+#-------------------------------------------------------------
 
     #-------------Fungsi Tag All Start---------------#
             elif msg.text in ["/tagall"]:
