@@ -54,9 +54,9 @@ class LINE:
     self.obs_token = self.channel.obs_token
     self.refresh_token = self.channel.refresh_token
     self._headers = {
-              'X-Line-Application': 'DESKTOPMAC 10.10.2-YOSEMITE-x64 MAC 4.5.0',
+              'X-Line-Application': 'DESKTOPWIN\t5.5.1.1.1590\tWINDOWS_NT\t8.0',
               'X-Line-Access': self.authToken,
-              'User-Agent': 'Line/6.0.0 iPad4,1 9.0.2'
+              'User-Agent': 'Line/1.4.17'
                }
 
 
@@ -432,7 +432,7 @@ class LINE:
 
       prof = self.getProfile()
 
-      print("  ̵̧̧̢̠̗̱̗̲̝̪͇͇̐̓̓̀̀͢͞͞ͅͅǍ̜̖̼̤͔̤̝̲̗̣͍̮̽͝҉̡̡̨̧̕͢͜͠͡͡҉͞ḁ̴̸̴̡̧̢̧̜̟̥̣̩͎̼̟ͦ͗̾̿̇ͨ̍̎̉̉ͥ̋́̀͞͞͡͠͏̸̛͞͝n̦̞̭̘̯̺̗͔̲͓̖̭̤̱̖̦̑͘҉҉̛͏̡̨̛͡҉̡̡͘ ̷̗͙̫̠̹̹̙̳͚͉̦͈͖̺̤̆͑ͯ̈́͝J̞̟̫̮̜̬̘̫̗͈͚̗͔͕̻̝ͩ̋ͤͩͣ̋ͣ̐ͯ͗̈́̿̊̓͐̾͌͛ữ̴̴̸̢͈͕̙̮̭͍͔͖̪̣̘͙̬̺͐̾͒̃̀͆͐͆̀̇̕̕͘͜҉̷̴̴̛͡t̸̴̨̧̧̨̡͙͔̬̭̱̪̪͈͎̺̣̰̱̥͖̘͈̰̻̹ͦͯ̋̏͊̇̇ͩ̈́̆͊̌͋̿͟͜͟͟͜͡͡͝ȁ̷̺̭͎̙̩̝̝̻͖̮̼͍͈͈͓̻͕̻͇͍̉͒ͫͦ̃ͯ̎̃̿ͧ̈̾̊̏̄̄̍͟҉w̠̘͍̘̱͙̺͙̮̟͖̻̙̹͍̻̑̏͛̋͐̔ͥ̆ͧ̎ͪͫͨͣ͋ͦ̍̎̀ͅͅͅ͏̶̕͘͢͜҉̵̢͘҉̸͘̕͝ḁ̵̶̡̛͎͔̺̘͍ͫ̉̅̈́͑ͦ̊̚̕͏҉͢n̥̯̫̘͋̂̀́́͘҉̵̧̢͘͢͟͝͡͞")
+      print("MIKANBOT")
       print("mid -> " + prof.mid)
       print("name -> " + prof.displayName)
       print("authToken -> " + self.authToken)
